@@ -6,8 +6,10 @@
     <title>FORM</title>
 </head>
 <body>
-    <form action="result.php">
-        
+    <form action="result.php" method="GET">
+        <label for="passwordLen">Password Length: </label>
+        <input type="number" name="passwordLen" required>
+        <input type="submit">
     </form>
 </body>
 </html>
